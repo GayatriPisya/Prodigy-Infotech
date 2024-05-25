@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="stopwatchicon.png"> 
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-stopwatch"></i> Stopwatch</h1>
+        <div class="timer-display">
+            <p>00 : 00 : 00 : 000</p>
+        </div>
+        <div class="buttons">
+            <button id="start-pause-timer"><i class="fas fa-play"></i> Start</button>
+            <button id="reset-timer"><i class="fas fa-redo"></i> Reset</button>
+        </div>
+        <div class="paused-time" id="paused-times-container">
+            <p>Paused times:</p>
+            <div id="paused-times"></div>
+        </div>
+        <p class="author">By <a href="https://www.linkedin.com/in/gayatri-pisya/" target="_blank">Gayatri Pisya</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
