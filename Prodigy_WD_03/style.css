@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.container {
+    text-align:center;
+    justify-content: center;
+    
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.icon {
+    font-size: 1.5em; /* Adjust size as needed */
+    justify-content: center;
+    margin-right: 10px;
+    color: rgb(242, 225, 212);
+}
+
+#message {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    height: 2em;
+    color: white; /* Set text color to white */
+}
+
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #9252ffcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    border: 1px solid #5a2929;
+}
+.cell:hover {
+    box-shadow: 0 0 10px #c34b4b, 0 0 20px #c91f1f, 0 0 40px #7a30dc; /* Add glowing effect on hover */
+    transform: scale(1); /* Scale up on hover */
+    transition: transform 0.3s ease; /* Smooth transition for the scale animation */
+}
+
+#restartButton {
+    margin: 20px auto 0; /* Centering with auto margins */
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: rgb(205, 57, 114);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block; /* Display block to enable auto margins */
+}
+
+#modeButtons {
+    margin: 20px auto; /* Centering with auto margins */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#modeButtons button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #216fe491;
+}
+
+#modeButtons i {
+    margin-right: 10px;
+}
+
+#restartButton:hover{
+    background-color: #dd3a3ac8; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+    box-shadow: 0 0 10px #fff, 0 0 20px #db340a, 0 0 40px #f46c6c; /* Add glowing effect on hover */
+}
+#modeButtons button:hover {
+    background-color: #65089b; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+    box-shadow: 0 0 10px #fff, 0 0 20px #6f0adb, 0 0 40px #4b21e4; /* Add glowing effect on hover */
+}
