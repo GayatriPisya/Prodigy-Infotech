@@ -88,6 +88,35 @@ Working on this project provided hands-on experience with creating a web-based s
 - **Debugging**: Improved problem-solving and debugging skills, particularly in handling asynchronous operations and ensuring cross-browser compatibility.
 
 
+<h1>Tic-Tac-Toe</h1>
+![image](https://github.com/GayatriPisya/Prodigy-Infotech/assets/157793060/54d7c7a1-9d3b-43ee-96d1-33f9e33eb5f3)
+
+## Description
+
+This project is a simple Tic-Tac-Toe game web application built using HTML, CSS, and JavaScript. It allows players to play against each other or against the computer.
+
+## Features
+
+- Play Tic-Tac-Toe against another player or against the computer.
+- Responsive design, suitable for various screen sizes.
+- Glowing effect and scale animation on hover for cells and buttons.
+- Different game modes: Human vs Human, Human vs Computer.
+## Technologies Used
+HTML5: Used for structuring the content of the page.
+CSS3: Used for styling and making the page responsive.
+JavaScript: Used for game logic and interactivity.
+Font Awesome: Used for adding modern icons.
+## After Won the game
+![image](https://github.com/GayatriPisya/Prodigy-Infotech/assets/157793060/48d76c53-1f0e-4bd1-81b1-8751b1bd12ab)
+
+## Experience
+Working on this project provided valuable experience in several key areas:
+Web Development: Developed skills in building interactive web applications.
+Responsive Design: Ensured the application is accessible and user-friendly across various devices.
+CSS Styling: Learned advanced CSS techniques for creating visually appealing interfaces.
+JavaScript Programming: Implemented game logic and user interaction using JavaScript.
+Version Control: Utilized Git for version control and collaboration.
+
 <h1>Weather App</h1>
 
 ![image](https://github.com/GayatriPisya/Prodigy-Infotech/assets/157793060/e7e25da0-252e-4b25-97e1-f3a6d548f1db)
