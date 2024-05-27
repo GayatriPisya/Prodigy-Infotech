@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease;
+    color: white;
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Background.jpg'); /* Add your default image path here */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.weather-icon {
+    width: 70px; /* Adjust the size of the icon as needed */
+    height: 50px;
+    margin-right: 10px; /* Space between the icon and the heading */
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Glow effect for the heading */
+}
+
+
+.container {
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    margin-top: -50px; /* Adjust this value to move the container up or down */
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    color: rgb(11, 2, 2);
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 20px; /* Add space above the input field */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6908d1be;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Add space below the button */
+}
+
+button:hover {
+    background-color: #4574a0;
+}
+
+.weather-and-forecast {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 20px; /* Add space above the weather info */
+}
+
+.weather-info {
+    width: 50%;
+    text-align:center ;
+    margin-right: 20px; /* Space between the weather info and the chart */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.weather-info p {
+    color: rgb(30, 207, 204);
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Add space below the weather info */
+}
+
+.weather-info i {
+    margin-right: 5px;
+}
+
+.forecast-container {
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.forecast-container canvas {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+}
+
+.weather-info .error-message {
+    color: rgb(230, 86, 86);
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
