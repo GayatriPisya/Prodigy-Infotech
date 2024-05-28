@@ -89,7 +89,9 @@ Working on this project provided hands-on experience with creating a web-based s
 
 
 <h1>Tic-Tac-Toe</h1>
-![image](https://github.com/GayatriPisya/Prodigy-Infotech/assets/157793060/54d7c7a1-9d3b-43ee-96d1-33f9e33eb5f3)
+
+![Screenshot 2024-05-27 205854](https://github.com/GayatriPisya/Prodigy-Infotech/assets/157793060/738ec960-904d-4558-81a5-31a77a3f2c2b)
+
 
 ## Description
 
