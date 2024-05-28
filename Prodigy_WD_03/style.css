@@ -33,7 +33,7 @@ h1 {
 }
 
 .icon {
-    font-size: 1.5em; /* Adjust size as needed */
+    font-size: 1.5em; 
     justify-content: center;
     margin-right: 10px;
     color: rgb(242, 225, 212);
@@ -43,7 +43,7 @@ h1 {
     font-size: 1.5em;
     margin-bottom: 20px;
     height: 2em;
-    color: white; /* Set text color to white */
+    color: white; 
 }
 
 #gameBoard {
@@ -65,24 +65,24 @@ h1 {
     border: 1px solid #5a2929;
 }
 .cell:hover {
-    box-shadow: 0 0 10px #c34b4b, 0 0 20px #c91f1f, 0 0 40px #7a30dc; /* Add glowing effect on hover */
-    transform: scale(1); /* Scale up on hover */
-    transition: transform 0.3s ease; /* Smooth transition for the scale animation */
+    box-shadow: 0 0 10px #c34b4b, 0 0 20px #c91f1f, 0 0 40px #7a30dc; 
+    transform: scale(1); 
+    transition: transform 0.3s ease; 
 }
 
 #restartButton {
-    margin: 20px auto 0; /* Centering with auto margins */
+    margin: 20px auto 0; 
     padding: 10px 20px;
     font-size: 1em;
     background-color: rgb(205, 57, 114);
     color: white;
     border-radius: 20px;
     cursor: pointer;
-    display: block; /* Display block to enable auto margins */
+    display: block; 
 }
 
 #modeButtons {
-    margin: 20px auto; /* Centering with auto margins */
+    margin: 20px auto; 
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -105,12 +105,12 @@ h1 {
 }
 
 #restartButton:hover{
-    background-color: #dd3a3ac8; /* Change background color on hover */
-    color: #ffffff; /* Change text color on hover */
-    box-shadow: 0 0 10px #fff, 0 0 20px #db340a, 0 0 40px #f46c6c; /* Add glowing effect on hover */
+    background-color: #dd3a3ac8;
+    color: #ffffff;
+    box-shadow: 0 0 10px #fff, 0 0 20px #db340a, 0 0 40px #f46c6c;
 }
 #modeButtons button:hover {
-    background-color: #65089b; /* Change background color on hover */
-    color: #ffffff; /* Change text color on hover */
-    box-shadow: 0 0 10px #fff, 0 0 20px #6f0adb, 0 0 40px #4b21e4; /* Add glowing effect on hover */
+    background-color: #65089b;
+    color: #ffffff;
+    box-shadow: 0 0 10px #fff, 0 0 20px #6f0adb, 0 0 40px #4b21e4; 
 }
