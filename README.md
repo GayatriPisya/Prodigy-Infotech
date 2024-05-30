@@ -119,6 +119,56 @@ CSS Styling: Learned advanced CSS techniques for creating visually appealing int
 JavaScript Programming: Implemented game logic and user interaction using JavaScript.
 Version Control: Utilized Git for version control and collaboration.
 
+
+<h1>Gayatri's Portfolio</h1>
+
+![image](https://github.com/GayatriPisya/Prodigy-Infotech/assets/157793060/b2937772-7b90-45eb-9423-209b8a19974e)
+
+
+This project is a portfolio website showcasing the skills, projects, and contact information of Pisya Gayatri. It provides an overview of educational background, technical proficiency, and various projects developed. The page is designed to be responsive and user-friendly, with sections to engage visitors and provide comprehensive information.
+
+## Description
+
+Gayatri's Portfolio is designed to highlight the skills and projects of Pisya Gayatri. It includes sections that cover personal background, technical skills, completed projects, and contact details. This portfolio serves as a professional introduction to potential employers, collaborators, and clients.
+
+## Key Features
+
+- **Responsive Design**: Ensures the page looks great on all devices, including desktops, tablets, and smartphones.
+- **Navigation Bar**: Smooth scrolling to different sections of the page.
+- **About Section**: Detailed information about personal background and technical proficiency.
+- **Skills Section**: Overview of technical skills and tools used.
+- **Projects Section**: Showcase of completed projects with descriptions and links to source code.
+- **Contact Form**: Allows users to send messages directly from the page.
+- **Social Media Links**: Connect with various social media platforms.
+- **Icons**: Font Awesome icons used for visual enhancement.
+
+## Skills Used
+
+- **HTML5**: For structuring the content of the page.
+- **CSS3**: For styling and making the page responsive.
+- **Font Awesome**: For adding icons to enhance the visual appeal.
+
+## Experience
+
+Working on this project provided valuable experience in web development, particularly in the following areas:
+
+- **Responsive Design**: Ensuring that the page is usable and visually appealing on a variety of devices.
+- **CSS Flexbox and Grid**: Used for layout and alignment of different sections.
+- **Integration of External Libraries**: Utilizing Font Awesome for icons.
+- **Form Handling**: Creating a functional contact form with proper validation.
+- **Web Design Principles**: Applying design principles to create an engaging and user-friendly interface.
+
+## Knowledge Gained
+
+Through this project, I gained substantial knowledge in several key areas:
+
+- **Responsive Web Design**: Understanding the principles and techniques to create web pages that work well on both large and small screens.
+- **Advanced CSS Techniques**: Learning to use Flexbox and Grid for complex layouts and alignment.
+- **Use of Icons and External Libraries**: Integrating Font Awesome icons to improve visual appeal and user experience.
+- **UI/UX Design**: Enhancing the user experience by creating an intuitive and visually pleasing interface.
+- **Project Organization**: Structuring a project in a way that makes it easy to manage and maintain.
+
+
 <h1>Weather App</h1>
 
 ![image](https://github.com/GayatriPisya/Prodigy-Infotech/assets/157793060/e7e25da0-252e-4b25-97e1-f3a6d548f1db)
